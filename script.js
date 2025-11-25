@@ -6,4 +6,5 @@ input.addEventListener("submit", (e) => {
   output[0].textContent = `celcius = ${e.target.suhu.value}`;
   output[1].textContent = `fahrenheit = ${(e.target.suhu.value * 9) / 5 + 32}`;
   output[2].textContent = `kelvin = ${parseInt(e.target.suhu.value) + 273.15}`;
+  output[3].textContent = `reamur = ${(e.target.suhu.value * 4) / 5}`;
 });
